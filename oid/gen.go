@@ -29,7 +29,7 @@ import (
 	"os/exec"
 	"strings"
 
-	_ "kingbase.com/gokb"
+	_ "github.com/junlin623/kb_driver"
 )
 
 const (

@@ -44,12 +44,12 @@ import (
 	"syscall"
 	"reflect"
 
-	"kingbase.com/gokb/oid"
-	"kingbase.com/gokb/oid/sqlserverOid"
-	"kingbase.com/gokb/oid/mysqlOid"
-	"kingbase.com/gokb/oid/oracleOid"
-	"kingbase.com/gokb/scram"
-	"kingbase.com/gokb/sm3"
+	"github.com/junlin623/kb_driver/oid"
+	"github.com/junlin623/kb_driver/oid/sqlserverOid"
+	"github.com/junlin623/kb_driver/oid/mysqlOid"
+	"github.com/junlin623/kb_driver/oid/oracleOid"
+	"github.com/junlin623/kb_driver/scram"
+	"github.com/junlin623/kb_driver/sm3"
 
 	"github.com/shopspring/decimal"
 	"github.com/golang-sql/civil"

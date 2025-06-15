@@ -25,7 +25,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"kingbase.com/gokb/oid"
+	"github.com/junlin623/kb_driver/oid"
 )
 
 type writeBuf struct {

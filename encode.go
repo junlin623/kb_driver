@@ -34,8 +34,8 @@ import (
 	"database/sql"
 	"reflect"
 
-	"kingbase.com/gokb/oid"
-	"kingbase.com/gokb/oid/oracleOid"
+	"github.com/junlin623/kb_driver/oid"
+	"github.com/junlin623/kb_driver/oid/oracleOid"
 
 	"github.com/shopspring/decimal"
 	"github.com/golang-sql/civil"
